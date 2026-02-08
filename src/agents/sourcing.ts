@@ -14,9 +14,9 @@ interface Catalog {
 }
 
 const catalogs: Record<Retailer, Catalog> = {
-    amazon: amazonCatalog as Catalog,
-    walmart: walmartCatalog as Catalog,
-    bestbuy: bestbuyCatalog as Catalog,
+    amazon: amazonCatalog as unknown as Catalog,
+    walmart: walmartCatalog as unknown as Catalog,
+    bestbuy: bestbuyCatalog as unknown as Catalog,
 };
 
 // Search a single retailer
