@@ -11,7 +11,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-6-purple)
 
-**[🎬 Watch Demo](#demo-scenarios) • [🚀 Quick Start](#-quick-start) • [🔌 Live API Setup](#-production-ready-just-add-api-keys)**
+** • [🚀 Quick Start](#-quick-start) • [🔌 Live API Setup](#-production-ready-just-add-api-keys)**
 
 </div>
 
