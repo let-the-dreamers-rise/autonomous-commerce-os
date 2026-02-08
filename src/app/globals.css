@@ -1,0 +1,527 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --background: 222 47% 6%;
+  --foreground: 210 40% 98%;
+  --card: 222 47% 8%;
+  --card-foreground: 210 40% 98%;
+  --primary: 263 90% 65%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 217 91% 60%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 172 66% 50%;
+  --accent-foreground: 222 47% 6%;
+  --muted: 222 20% 20%;
+  --muted-foreground: 215 20% 65%;
+  --border: 222 20% 18%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.7);
+}
+
+/* Glass effect utility */
+.glass {
+  background: linear-gradient(135deg,
+      hsl(var(--card) / 0.8) 0%,
+      hsl(var(--card) / 0.4) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border) / 0.5);
+}
+
+/* Glow effects */
+.glow-primary {
+  box-shadow: 0 0 30px hsl(var(--primary) / 0.3);
+}
+
+.glow-secondary {
+  box-shadow: 0 0 30px hsl(var(--secondary) / 0.3);
+}
+
+.glow-accent {
+  box-shadow: 0 0 30px hsl(var(--accent) / 0.3);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--secondary)) 50%,
+      hsl(var(--accent)) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Animated gradient background */
+.animated-gradient {
+  background: linear-gradient(-45deg,
+      hsl(var(--primary) / 0.1),
+      hsl(var(--secondary) / 0.1),
+      hsl(var(--accent) / 0.1),
+      hsl(var(--primary) / 0.1));
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Pulse animation for thinking states */
+.thinking-pulse {
+  animation: thinking-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes thinking-pulse {
+
+  0%,
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+}
+
+/* Typing cursor */
+.typing-cursor::after {
+  content: '▋';
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Agent status indicators */
+.agent-idle {
+  color: hsl(var(--muted-foreground));
+}
+
+.agent-thinking {
+  color: hsl(var(--warning));
+}
+
+.agent-complete {
+  color: hsl(var(--success));
+}
+
+.agent-error {
+  color: hsl(var(--error));
+}
+
+/* Retailer colors */
+.retailer-amazon {
+  color: #FF9900;
+}
+
+.retailer-walmart {
+  color: #0071DC;
+}
+
+.retailer-bestbuy {
+  color: #0046BE;
+}
+
+.bg-retailer-amazon {
+  background-color: #FF9900;
+}
+
+.bg-retailer-walmart {
+  background-color: #0071DC;
+}
+
+.bg-retailer-bestbuy {
+  background-color: #0046BE;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--secondary)) 100%);
+  color: white;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px hsl(var(--primary) / 0.4);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-secondary {
+  @apply px-6 py-3 rounded-xl font-semibold transition-all duration-300;
+  background: hsl(var(--muted));
+  color: hsl(var(--foreground));
+  border: 1px solid hsl(var(--border));
+}
+
+.btn-secondary:hover {
+  background: hsl(var(--muted) / 0.8);
+  border-color: hsl(var(--primary) / 0.5);
+}
+
+/* Card styles */
+.card {
+  @apply rounded-2xl p-6;
+  background: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+}
+
+.card-glass {
+  @apply rounded-2xl p-6 glass;
+}
+
+/* Score badge */
+.score-badge {
+  @apply px-2 py-1 rounded-full text-xs font-mono font-bold;
+  background: linear-gradient(135deg, hsl(var(--primary) / 0.2) 0%, hsl(var(--secondary) / 0.2) 100%);
+  border: 1px solid hsl(var(--primary) / 0.3);
+}
+
+/* Progress bar */
+.progress-bar {
+  @apply h-2 rounded-full overflow-hidden;
+  background: hsl(var(--muted));
+}
+
+.progress-bar-fill {
+  @apply h-full rounded-full transition-all duration-500;
+  background: linear-gradient(90deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+}
+
+/* Input styles */
+.input-field {
+  @apply w-full px-4 py-3 rounded-xl transition-all duration-300;
+  background: hsl(var(--muted));
+  border: 1px solid hsl(var(--border));
+  color: hsl(var(--foreground));
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: hsl(var(--primary));
+  box-shadow: 0 0 0 3px hsl(var(--primary) / 0.2);
+}
+
+.input-field::placeholder {
+  color: hsl(var(--muted-foreground));
+}
+
+/* Fade in animation */
+.fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide up animation */
+.slide-up {
+  animation: slide-up 0.3s ease-out forwards;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stagger children animations */
+.stagger-children>* {
+  opacity: 0;
+  animation: fade-in 0.4s ease-out forwards;
+}
+
+.stagger-children>*:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.stagger-children>*:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.stagger-children>*:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.stagger-children>*:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.stagger-children>*:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+/* ==========================================
+   MOBILE RESPONSIVE STYLES
+   ========================================== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .container {
+    @apply px-4;
+  }
+
+  .card-glass {
+    @apply p-4 rounded-xl;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    @apply px-4 py-2 text-sm;
+  }
+
+  h1 {
+    @apply text-3xl;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  /* Stack grid columns */
+  .grid-cols-3 {
+    @apply grid-cols-1;
+  }
+
+  .lg\:grid-cols-3 {
+    @apply grid-cols-1;
+  }
+
+  /* Hero section */
+  .text-6xl,
+  .md\:text-6xl {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .text-4xl,
+  .md\:text-4xl {
+    font-size: 1.75rem !important;
+    line-height: 1.3 !important;
+  }
+
+  /* Reduce spacing */
+  .gap-6 {
+    gap: 1rem;
+  }
+
+  .py-20 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Mission complete bar */
+  .grid-cols-5 {
+    @apply grid-cols-3;
+  }
+}
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    @apply px-3;
+  }
+
+  .card-glass,
+  .card {
+    @apply p-3 rounded-lg;
+  }
+
+  /* Even smaller text */
+  .text-6xl,
+  .md\:text-6xl,
+  .text-4xl,
+  .md\:text-4xl {
+    font-size: 1.5rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .text-2xl {
+    font-size: 1.25rem !important;
+  }
+
+  .text-lg {
+    font-size: 1rem !important;
+  }
+
+  /* Stack buttons */
+  .flex-wrap {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    @apply w-full text-center justify-center;
+  }
+
+  /* Reduce padding */
+  .px-6 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .py-4 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  /* Mission complete bar - 2 columns on mobile */
+  .grid-cols-5,
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Hide less important elements on mobile */
+  .hidden-mobile {
+    display: none !important;
+  }
+
+  /* Adjust agent feed */
+  .max-h-\[400px\] {
+    max-height: 200px;
+  }
+
+  /* Full width checkout modal */
+  .fixed.inset-0 .max-w-lg {
+    max-width: 100%;
+    margin: 0.5rem;
+  }
+}
+
+/* Touch-friendly buttons */
+@media (hover: none) and (pointer: coarse) {
+
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    transform: none;
+  }
+
+  button,
+  a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* Safe area for notched phones */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+    padding-bottom: max(0px, env(safe-area-inset-bottom));
+  }
+}
+
+/* Landscape mobile */
+@media (max-height: 500px) and (orientation: landscape) {
+  .py-20 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .mb-8 {
+    margin-bottom: 1rem;
+  }
+
+  .text-6xl,
+  .md\:text-6xl {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Print styles - hide animations */
+@media print {
+
+  .animate-pulse,
+  .thinking-pulse {
+    animation: none !important;
+  }
+
+  .fixed {
+    position: static !important;
+  }
+}

@@ -1,0 +1,223 @@
+{
+    "retailer": "bestbuy",
+    "displayName": "Best Buy",
+    "color": "#0046BE",
+    "products": [
+        {
+            "id": "bb-snack-001",
+            "name": "Premium Tech Event Snack Box",
+            "category": "snacks",
+            "price": 34.99,
+            "rating": 4.6,
+            "reviewCount": 1234,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/snack-basket.jpg",
+            "description": "FASTEST - Premium snacks, next-day delivery"
+        },
+        {
+            "id": "bb-cable-001",
+            "name": "Insignia USB-C Hub 6-in-1",
+            "category": "tech_accessories",
+            "price": 44.99,
+            "rating": 4.5,
+            "reviewCount": 3456,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/insignia-hub.jpg",
+            "description": "Premium USB-C hub with multiple ports"
+        },
+        {
+            "id": "bb-cable-002",
+            "name": "Belkin Thunderbolt 4 Pro Hub",
+            "category": "tech_accessories",
+            "price": 129.99,
+            "rating": 4.9,
+            "reviewCount": 2345,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/belkin-hub.jpg",
+            "description": "PREMIUM + FASTEST - Best quality, next-day"
+        },
+        {
+            "id": "bb-badge-001",
+            "name": "Premium Event Badge System",
+            "category": "badges",
+            "price": 49.99,
+            "rating": 4.8,
+            "reviewCount": 890,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/premium-badges.jpg",
+            "description": "PREMIUM + FASTEST - Professional badges, instant"
+        },
+        {
+            "id": "bb-prize-001",
+            "name": "Best Buy Gift Card $100",
+            "category": "prizes",
+            "price": 100.00,
+            "rating": 4.9,
+            "reviewCount": 89012,
+            "deliveryDays": 0,
+            "inStock": true,
+            "image": "/products/bb-giftcard.jpg",
+            "description": "Best Buy gift card for electronics"
+        },
+        {
+            "id": "bb-prize-002",
+            "name": "Apple AirPods Pro (2nd Gen)",
+            "category": "prizes",
+            "price": 249.99,
+            "rating": 4.9,
+            "reviewCount": 45678,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/airpods.jpg",
+            "description": "PREMIUM - Best wireless earbuds"
+        },
+        {
+            "id": "bb-decor-001",
+            "name": "Philips Hue Smart LED System",
+            "category": "decorations",
+            "price": 149.99,
+            "rating": 4.9,
+            "reviewCount": 23456,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/hue-starter.jpg",
+            "description": "PREMIUM + FASTEST - Smart LED, next-day"
+        },
+        {
+            "id": "bb-outer-001",
+            "name": "The North Face Thermoball Eco Jacket",
+            "category": "outerwear",
+            "price": 229.99,
+            "rating": 4.8,
+            "reviewCount": 4567,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/tnf-jacket.jpg",
+            "description": "FASTEST - Premium jacket, next-day delivery"
+        },
+        {
+            "id": "bb-acc-001",
+            "name": "Smith I/O MAG XL Goggles",
+            "category": "accessories",
+            "price": 299.99,
+            "rating": 4.9,
+            "reviewCount": 5678,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/smith-goggles.jpg",
+            "description": "PREMIUM + FASTEST - Pro goggles, 1-day ship"
+        },
+        {
+            "id": "bb-base-001",
+            "name": "Patagonia Capilene Air Base Layer",
+            "category": "base_layer",
+            "price": 179.99,
+            "rating": 4.9,
+            "reviewCount": 2345,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/pat-base.jpg",
+            "description": "PREMIUM + FASTEST - Top merino blend, 1-day"
+        },
+        {
+            "id": "bb-pants-001",
+            "name": "Patagonia Powder Town Pants",
+            "category": "pants",
+            "price": 299.00,
+            "rating": 4.9,
+            "reviewCount": 1567,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/pat-pants.jpg",
+            "description": "PREMIUM - 3-layer Gore-Tex ski pants",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "bb-gloves-001",
+            "name": "Black Diamond Guide Gloves",
+            "category": "gloves",
+            "price": 169.95,
+            "rating": 4.8,
+            "reviewCount": 2345,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/bd-gloves.jpg",
+            "description": "PREMIUM - Gore-Tex pro-level ski gloves",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "bb-helmet-001",
+            "name": "POC Obex MIPS Helmet",
+            "category": "helmet",
+            "price": 230.00,
+            "rating": 4.9,
+            "reviewCount": 890,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/poc-helmet.jpg",
+            "description": "PREMIUM - Swedish engineering, MIPS protection",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Uranium Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Hydrogen White",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "bb-socks-001",
+            "name": "Smartwool PhD Ski Medium",
+            "category": "socks",
+            "price": 29.95,
+            "rating": 4.8,
+            "reviewCount": 3456,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/sw-socks.jpg",
+            "description": "PREMIUM - Merino wool performance ski socks",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Charcoal",
+                    "inStock": true
+                }
+            ]
+        }
+    ]
+}

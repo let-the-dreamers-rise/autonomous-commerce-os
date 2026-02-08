@@ -1,0 +1,373 @@
+{
+    "retailer": "walmart",
+    "displayName": "Walmart",
+    "color": "#0071DC",
+    "products": [
+        {
+            "id": "wmt-snack-001",
+            "name": "Great Value Variety Snack Pack (50 Count)",
+            "category": "snacks",
+            "price": 12.99,
+            "rating": 4.3,
+            "reviewCount": 12456,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/gv-snacks.jpg",
+            "description": "Budget-friendly variety snack pack"
+        },
+        {
+            "id": "wmt-snack-002",
+            "name": "Super Saver Mega Bulk Chips (150 Pack)",
+            "category": "snacks",
+            "price": 6.99,
+            "rating": 3.5,
+            "reviewCount": 2345,
+            "deliveryDays": 7,
+            "inStock": true,
+            "image": "/products/bulk-chips.jpg",
+            "description": "CHEAPEST - Ultra budget, slow delivery, lower quality"
+        },
+        {
+            "id": "wmt-badge-001",
+            "name": "Pen+Gear Name Badge Kit (50 Pack)",
+            "category": "badges",
+            "price": 8.97,
+            "rating": 4.1,
+            "reviewCount": 2345,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/pg-badges.jpg",
+            "description": "Affordable name badges with clips"
+        },
+        {
+            "id": "wmt-badge-002",
+            "name": "Basic Budget Badges (200 Pack)",
+            "category": "badges",
+            "price": 4.99,
+            "rating": 3.4,
+            "reviewCount": 1567,
+            "deliveryDays": 6,
+            "inStock": true,
+            "image": "/products/budget-badges.jpg",
+            "description": "CHEAPEST - Bare minimum, slow delivery"
+        },
+        {
+            "id": "wmt-cable-001",
+            "name": "onn. USB-C Hub 4-Port",
+            "category": "tech_accessories",
+            "price": 14.88,
+            "rating": 4.0,
+            "reviewCount": 5678,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/onn-hub.jpg",
+            "description": "Basic 4-port USB-C hub"
+        },
+        {
+            "id": "wmt-cable-002",
+            "name": "Hyper Tough Basic Power Strip 4-Outlet",
+            "category": "tech_accessories",
+            "price": 3.99,
+            "rating": 3.3,
+            "reviewCount": 15678,
+            "deliveryDays": 5,
+            "inStock": true,
+            "image": "/products/ht-powerstrip.jpg",
+            "description": "CHEAPEST - Bare bones, slow shipment"
+        },
+        {
+            "id": "wmt-prize-001",
+            "name": "Walmart Gift Card $25",
+            "category": "prizes",
+            "price": 25.00,
+            "rating": 4.8,
+            "reviewCount": 45678,
+            "deliveryDays": 0,
+            "inStock": true,
+            "image": "/products/wmt-giftcard.jpg",
+            "description": "Walmart gift card for any purchase"
+        },
+        {
+            "id": "wmt-prize-002",
+            "name": "Budget Wireless Earbuds",
+            "category": "prizes",
+            "price": 9.99,
+            "rating": 3.2,
+            "reviewCount": 3456,
+            "deliveryDays": 6,
+            "inStock": true,
+            "image": "/products/budget-buds.jpg",
+            "description": "CHEAPEST - Basic earbuds, low quality"
+        },
+        {
+            "id": "wmt-decor-001",
+            "name": "Way to Celebrate Party Pack",
+            "category": "decorations",
+            "price": 9.97,
+            "rating": 4.0,
+            "reviewCount": 4567,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/wtc-party.jpg",
+            "description": "Complete party decoration set"
+        },
+        {
+            "id": "wmt-decor-002",
+            "name": "Basic String Lights 50ct",
+            "category": "decorations",
+            "price": 2.99,
+            "rating": 3.1,
+            "reviewCount": 23456,
+            "deliveryDays": 8,
+            "inStock": true,
+            "image": "/products/basic-lights.jpg",
+            "description": "CHEAPEST - Minimal decoration, very slow"
+        },
+        {
+            "id": "wmt-outer-001",
+            "name": "Swiss Tech Men's Ski Jacket",
+            "category": "outerwear",
+            "price": 69.99,
+            "rating": 4.2,
+            "reviewCount": 2345,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/st-jacket.jpg",
+            "description": "Affordable waterproof ski jacket",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Navy",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-outer-002",
+            "name": "Athletic Works Budget Winter Coat",
+            "category": "outerwear",
+            "price": 24.99,
+            "rating": 3.4,
+            "reviewCount": 5678,
+            "deliveryDays": 7,
+            "inStock": true,
+            "image": "/products/aw-coat.jpg",
+            "description": "CHEAPEST - Basic winter coat, slow delivery",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Gray",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Gray",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-acc-001",
+            "name": "Ozark Trail Ski Goggles",
+            "category": "accessories",
+            "price": 14.97,
+            "rating": 4.0,
+            "reviewCount": 3456,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/ot-goggles.jpg",
+            "description": "Basic anti-fog ski goggles"
+        },
+        {
+            "id": "wmt-acc-002",
+            "name": "Generic Ski Goggles Budget",
+            "category": "accessories",
+            "price": 5.99,
+            "rating": 3.0,
+            "reviewCount": 2345,
+            "deliveryDays": 9,
+            "inStock": true,
+            "image": "/products/budget-goggles.jpg",
+            "description": "CHEAPEST - Basic goggles, very slow"
+        },
+        {
+            "id": "wmt-base-001",
+            "name": "Athletic Works Thermal Set",
+            "category": "base_layer",
+            "price": 19.97,
+            "rating": 4.0,
+            "reviewCount": 6789,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/aw-thermal.jpg",
+            "description": "Basic thermal base layer set"
+        },
+        {
+            "id": "wmt-base-002",
+            "name": "Budget Thermal Underwear",
+            "category": "base_layer",
+            "price": 7.99,
+            "rating": 3.2,
+            "reviewCount": 4567,
+            "deliveryDays": 6,
+            "inStock": true,
+            "image": "/products/budget-thermal.jpg",
+            "description": "CHEAPEST - Basic thermal, slow delivery"
+        },
+        {
+            "id": "wmt-pants-001",
+            "name": "Athletic Works Men's Snow Pants",
+            "category": "pants",
+            "price": 24.97,
+            "rating": 4.1,
+            "reviewCount": 5678,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/aw-snow-pants.jpg",
+            "description": "Insulated snow pants, great value",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-pants-002",
+            "name": "Swiss Tech Ski Pants",
+            "category": "pants",
+            "price": 39.97,
+            "rating": 4.3,
+            "reviewCount": 3456,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/swiss-pants.jpg",
+            "description": "Waterproof ski pants with cargo pockets",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Navy",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-gloves-001",
+            "name": "Athletic Works Ski Gloves",
+            "category": "gloves",
+            "price": 12.97,
+            "rating": 4.0,
+            "reviewCount": 8901,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/aw-gloves.jpg",
+            "description": "Waterproof ski gloves, budget-friendly",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-helmet-001",
+            "name": "Swiss Gear Ski Helmet",
+            "category": "helmet",
+            "price": 29.97,
+            "rating": 4.2,
+            "reviewCount": 2345,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/sg-helmet.jpg",
+            "description": "ASTM certified, adjustable fit",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "White",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "wmt-socks-001",
+            "name": "Athletic Works Ski Socks (3-Pack)",
+            "category": "socks",
+            "price": 9.97,
+            "rating": 4.0,
+            "reviewCount": 4567,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/aw-socks.jpg",
+            "description": "Thermal ski socks, value pack",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        }
+    ]
+}

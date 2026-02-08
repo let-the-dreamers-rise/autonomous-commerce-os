@@ -1,0 +1,502 @@
+{
+    "retailer": "amazon",
+    "displayName": "Amazon",
+    "color": "#FF9900",
+    "products": [
+        {
+            "id": "amz-snack-001",
+            "name": "Frito-Lay Ultimate Snack Care Package (40 Count)",
+            "category": "snacks",
+            "price": 18.98,
+            "rating": 4.7,
+            "reviewCount": 28453,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/snacks-variety.jpg",
+            "description": "Variety pack of chips including Doritos, Cheetos, and Lays"
+        },
+        {
+            "id": "amz-snack-002",
+            "name": "OREO Original & OREO Golden Sandwich Cookies (56 Snack Packs)",
+            "category": "snacks",
+            "price": 24.99,
+            "rating": 4.8,
+            "reviewCount": 15234,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/oreo-pack.jpg",
+            "description": "Individual snack packs perfect for events"
+        },
+        {
+            "id": "amz-snack-003",
+            "name": "Premium Artisan Gourmet Snack Box (30 Count)",
+            "category": "snacks",
+            "price": 49.99,
+            "rating": 4.9,
+            "reviewCount": 5678,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/gourmet-snacks.jpg",
+            "description": "PREMIUM - Best quality, fastest delivery, highest price"
+        },
+        {
+            "id": "amz-badge-001",
+            "name": "MIFFLIN Name Badge Kit with Pins (100 Pack)",
+            "category": "badges",
+            "price": 14.99,
+            "rating": 4.4,
+            "reviewCount": 5672,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/badges-pin.jpg",
+            "description": "Clear plastic name badges with metal pins"
+        },
+        {
+            "id": "amz-badge-002",
+            "name": "Avery Premium Self-Laminating ID Cards (50 Pack)",
+            "category": "badges",
+            "price": 34.99,
+            "rating": 4.9,
+            "reviewCount": 3421,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/badges-laminating.jpg",
+            "description": "PREMIUM - Professional badges, fastest delivery"
+        },
+        {
+            "id": "amz-cable-001",
+            "name": "Anker USB-C Hub 7-in-1 Adapter",
+            "category": "tech_accessories",
+            "price": 35.99,
+            "rating": 4.7,
+            "reviewCount": 42156,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/usb-hub.jpg",
+            "description": "Multi-port USB-C hub with HDMI, USB-A, SD card"
+        },
+        {
+            "id": "amz-cable-002",
+            "name": "Premium Anker PowerPort Ultra Hub Bundle",
+            "category": "tech_accessories",
+            "price": 79.99,
+            "rating": 4.9,
+            "reviewCount": 18234,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/usb-cables.jpg",
+            "description": "PREMIUM - Best quality, instant delivery"
+        },
+        {
+            "id": "amz-prize-001",
+            "name": "Amazon Gift Card (Pack of 10 x $25)",
+            "category": "prizes",
+            "price": 250.00,
+            "rating": 4.9,
+            "reviewCount": 156789,
+            "deliveryDays": 0,
+            "inStock": true,
+            "image": "/products/gift-cards.jpg",
+            "description": "Digital gift cards delivered instantly"
+        },
+        {
+            "id": "amz-prize-002",
+            "name": "Echo Dot (5th Gen) Smart Speaker",
+            "category": "prizes",
+            "price": 49.99,
+            "rating": 4.7,
+            "reviewCount": 234567,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/echo-dot.jpg",
+            "description": "Smart speaker with Alexa, great as a prize"
+        },
+        {
+            "id": "amz-prize-003",
+            "name": "Apple AirPods Pro 2nd Gen",
+            "category": "prizes",
+            "price": 199.99,
+            "rating": 4.9,
+            "reviewCount": 45678,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/airpods-pro.jpg",
+            "description": "PREMIUM - Best wireless earbuds, top quality"
+        },
+        {
+            "id": "amz-decor-001",
+            "name": "Party Decorations Kit - Balloons & Banners",
+            "category": "decorations",
+            "price": 16.99,
+            "rating": 4.3,
+            "reviewCount": 8234,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/party-decor.jpg",
+            "description": "Complete party decoration kit with balloons"
+        },
+        {
+            "id": "amz-decor-002",
+            "name": "Premium LED Event Lighting System 200ft",
+            "category": "decorations",
+            "price": 89.99,
+            "rating": 4.9,
+            "reviewCount": 12456,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/led-lights.jpg",
+            "description": "PREMIUM - Smart LED lights, app controlled, instant delivery"
+        },
+        {
+            "id": "amz-outer-001",
+            "name": "Columbia Whirlibird IV Interchange Jacket",
+            "category": "outerwear",
+            "price": 189.99,
+            "rating": 4.6,
+            "reviewCount": 8923,
+            "deliveryDays": 3,
+            "inStock": true,
+            "image": "/products/ski-jacket.jpg",
+            "description": "Waterproof ski jacket with removable liner",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Blue",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Red",
+                    "inStock": false
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-outer-002",
+            "name": "Arc'teryx Beta LT Gore-Tex Pro Jacket",
+            "category": "outerwear",
+            "price": 549.99,
+            "rating": 4.9,
+            "reviewCount": 34567,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/arcteryx.jpg",
+            "description": "PREMIUM - Top-tier mountaineering jacket, 1-day delivery",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Dynasty",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Pytheas",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-acc-001",
+            "name": "OutdoorMaster OTG Ski Goggles",
+            "category": "accessories",
+            "price": 29.99,
+            "rating": 4.6,
+            "reviewCount": 23456,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/ski-goggles.jpg",
+            "description": "Anti-fog UV protection ski goggles"
+        },
+        {
+            "id": "amz-acc-002",
+            "name": "Oakley Flight Deck L Prizm Goggles",
+            "category": "accessories",
+            "price": 184.99,
+            "rating": 4.9,
+            "reviewCount": 12345,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/oakley-goggles.jpg",
+            "description": "PREMIUM - Pro-level optics, fastest delivery"
+        },
+        {
+            "id": "amz-base-001",
+            "name": "TSLA Thermal Compression Baselayer Set",
+            "category": "base_layer",
+            "price": 32.98,
+            "rating": 4.5,
+            "reviewCount": 45678,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/base-layer.jpg",
+            "description": "Fleece-lined thermal base layer top and bottom"
+        },
+        {
+            "id": "amz-base-002",
+            "name": "Smartwool Merino 250 Premium Base Layer",
+            "category": "base_layer",
+            "price": 139.99,
+            "rating": 4.9,
+            "reviewCount": 23456,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/smartwool.jpg",
+            "description": "PREMIUM - Merino wool, top comfort, fastest delivery",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Charcoal",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Charcoal",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Charcoal",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-pants-001",
+            "name": "Arctix Men's Essential Snow Pants",
+            "category": "pants",
+            "price": 34.99,
+            "rating": 4.5,
+            "reviewCount": 67890,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/arctix-pants.jpg",
+            "description": "Insulated snow pants with boot gaiters",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Charcoal",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-pants-002",
+            "name": "The North Face Freedom Insulated Pants",
+            "category": "pants",
+            "price": 199.99,
+            "rating": 4.8,
+            "reviewCount": 12345,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/tnf-pants.jpg",
+            "description": "PREMIUM - Waterproof ski pants, fastest delivery",
+            "variants": [
+                {
+                    "size": "S",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "TNF Blue",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-gloves-001",
+            "name": "Carhartt Men's W.P. Waterproof Insulated Gloves",
+            "category": "gloves",
+            "price": 24.99,
+            "rating": 4.5,
+            "reviewCount": 34567,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/carhartt-gloves.jpg",
+            "description": "Waterproof insulated work gloves for snow",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "XL",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-gloves-002",
+            "name": "Hestra Army Leather Heli Ski Gloves",
+            "category": "gloves",
+            "price": 185.00,
+            "rating": 4.9,
+            "reviewCount": 8901,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/hestra-gloves.jpg",
+            "description": "PREMIUM - Pro-level leather ski gloves",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Tan",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Tan",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-helmet-001",
+            "name": "OutdoorMaster Kelvin Ski Helmet",
+            "category": "helmet",
+            "price": 49.99,
+            "rating": 4.6,
+            "reviewCount": 23456,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/om-helmet.jpg",
+            "description": "ASTM certified ski helmet with dial fit system",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "White",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-helmet-002",
+            "name": "Smith Vantage MIPS Helmet",
+            "category": "helmet",
+            "price": 280.00,
+            "rating": 4.9,
+            "reviewCount": 5678,
+            "deliveryDays": 1,
+            "inStock": true,
+            "image": "/products/smith-helmet.jpg",
+            "description": "PREMIUM - Top-rated helmet with MIPS protection",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Matte Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Matte Black",
+                    "inStock": true
+                }
+            ]
+        },
+        {
+            "id": "amz-socks-001",
+            "name": "Darn Tough Vermont Ski Sock (2-Pack)",
+            "category": "socks",
+            "price": 48.00,
+            "rating": 4.8,
+            "reviewCount": 12345,
+            "deliveryDays": 2,
+            "inStock": true,
+            "image": "/products/darn-tough.jpg",
+            "description": "Merino wool ski socks with lifetime guarantee",
+            "variants": [
+                {
+                    "size": "M",
+                    "color": "Black",
+                    "inStock": true
+                },
+                {
+                    "size": "L",
+                    "color": "Black",
+                    "inStock": true
+                }
+            ]
+        }
+    ]
+}
