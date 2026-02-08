@@ -65,7 +65,7 @@ User Goal → Planner Agent → Sourcing Swarm → Ranking Engine
 
 ---
 
-**If we had 24 more hours:** We'd implement real checkout via affiliate links and add voice input for hands-free goal entry.
+**If we had 24 more hours:** We'd implement real checkout via affiliate links and add multi-currency support for international users.
 
 **Repository:** [github.com/let-the-dreamers-rise/autonomous-commerce-os](https://github.com/let-the-dreamers-rise/autonomous-commerce-os)
 
